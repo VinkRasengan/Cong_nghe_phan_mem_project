@@ -13,7 +13,6 @@ class Account{
   
   Account(this.username,this.password);
 }
-// ignore_for_file: file_names
 @HiveType(typeId: 1)
 class Person{
   @HiveField(0)
